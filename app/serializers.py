@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import Balance
+from .models import ClickTransactionPR
 
-class BalanceSerilaizer(serializers.ModelSerializer):
+class ClickTransactionSerilaizerPR(serializers.ModelSerializer):
     class Meta():
-        model = Balance
+        model = ClickTransactionPR
         fields = '__all__'
